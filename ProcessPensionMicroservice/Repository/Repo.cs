@@ -20,7 +20,7 @@ namespace ProcessPensionMicroservice.Repository
             
 
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("https://localhost:44396/api/pensionerdetail/");
+            client.BaseAddress = new Uri("https://mc2app.azurewebsites.net/api/pensionerdetail/");
 
                 var responseTask = client.GetAsync(ids);
                 responseTask.Wait();
