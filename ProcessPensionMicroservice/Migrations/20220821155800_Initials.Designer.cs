@@ -9,8 +9,8 @@ using ProcessPensionMicroservice.Data;
 namespace ProcessPensionMicroservice.Migrations
 {
     [DbContext(typeof(MThreePensionDbContext))]
-    [Migration("20220807175644_Initial")]
-    partial class Initial
+    [Migration("20220821155800_Initials")]
+    partial class Initials
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
